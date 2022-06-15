@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Header */
+
 header {
     background-color: #1F2937;
     margin:auto;
@@ -81,4 +83,69 @@ header {
 
 .signup-button:hover {
     background-color: #004BB7;
+}
+
+/* main-content */
+
+.main-content h2 {
+    text-align: center;
+    color: #202a37;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 1em;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+
+.information div img {
+    max-width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    border: 2px solid hsl(217, 91%, 59%);
+}
+
+.information div p {
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #6d747d;
+}
+
+/* quote */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin-top: 3em;
+    padding: 3.5em;
+    height: 200px;
+
+}
+
+.quote {
+    width: 70%;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: right;
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
