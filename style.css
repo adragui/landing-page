@@ -46,6 +46,7 @@ header {
     flex-direction: column;
     flex: 1 1 0;
     padding: 0.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header-info h1 {
@@ -58,7 +59,7 @@ header {
 .header-info p:nth-child(2) {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 0;
 }
 
 .header-image {
@@ -70,7 +71,7 @@ header {
 
 .signup-button {
     width: 110px;
-    margin: 0.5em;
+    margin: 0.5em 0 0.5em 0;
     padding: 0.5em 2em;
     border: none;
     background-color: hsl(217, 91%, 59%);
