@@ -94,7 +94,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     font-size: 25px;
-    margin: 1em;
+    margin: 2em;
 }
 
 .information {
@@ -128,8 +128,8 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    margin-top: 3em;
-    margin-bottom: 4em;
+    margin-top: 4em;
+    margin-bottom: 5em;
     padding: 3.5em;
     height: 200px;
 
@@ -187,7 +187,7 @@ header {
 
 footer {
     background-color: #1F2937;
-    margin-top: 4em;
+    margin-top: 5em;
     height: 4em;
 }
 
